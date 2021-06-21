@@ -9,18 +9,19 @@ import java.util.*;*/
  
 public class PiedraPapelTijera{   
 
-    public void PiedraPapelTijera(){
+    public void Partida(){
+      Scanner scanner = new Scanner(System.in);
         
         System.out.println("Juego piedra-papel-tijera");
-        Scanner scanner = new Scanner(System.in);
+        
 
         int seleccionCompu = (int)(Math.random() * 3) + 1;
-        System.out.println("La computadora ya escogio...");
+        System.out.println("el primer jugador  escogio: ");
 
         System.out.print("Indique su seleccion [1=Piedra, 2=Papel, 3=Tijera]: ");
         int seleccionUsuario = scanner.nextInt();
 
-    System.out.print("La computadora habia escogido: ");
+    System.out.print("el segundo jugador habia escogido: ");
     switch ( seleccionCompu )
     {
        case 1:
@@ -29,7 +30,7 @@ public class PiedraPapelTijera{
           {
              case 1: System.out.println("Empate!"); break;
              case 2: System.out.println("Usted gana!"); break;
-             case 3: System.out.println("La computadora gana!"); break;
+             case 3: System.out.println("El segundo jugador gana!"); break;
           }
           break;
 
@@ -37,7 +38,7 @@ public class PiedraPapelTijera{
           System.out.println("Papel");
           switch ( seleccionUsuario )
           {
-             case 1: System.out.println("La computadora gana!"); break;
+             case 1: System.out.println("El segundo jugador gana!"); break;
              case 2: System.out.println("Empate!"); break;
              case 3: System.out.println("Usted gana!"); break;
           }
@@ -48,7 +49,7 @@ public class PiedraPapelTijera{
           switch ( seleccionUsuario )
           {
              case 1: System.out.println("Usted gana!"); break;
-             case 2: System.out.println("La computadora gana!"); break;
+             case 2: System.out.println("El segundo jugador gana!"); break;
              case 3: System.out.println("Empate!"); break;
           }
           break;
