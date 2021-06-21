@@ -3,7 +3,7 @@ package src.tablero;
 public class Celda {
     private boolean conColor;
     private Ficha ficha;
-    //private char celda = '▓';
+    
     private char celdaColor = '▓';
 
 

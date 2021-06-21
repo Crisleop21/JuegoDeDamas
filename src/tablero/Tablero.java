@@ -17,6 +17,66 @@ public class Tablero {
         tablero [1][0].setFicha(new Ficha(true));
         tablero [1][0].setFicha(new Ficha(false));
 
+        tablero [3][0].setFicha(new Ficha(true));
+        tablero [3][0].setFicha(new Ficha(false));
+        tablero [2][1].setFicha(new Ficha(true));
+        tablero [2][1].setFicha(new Ficha(false));
+
+        tablero [5][0].setFicha(new Ficha(true));
+        tablero [5][0].setFicha(new Ficha(false));
+        tablero [4][1].setFicha(new Ficha(true));
+        tablero [4][1].setFicha(new Ficha(false));
+
+        tablero [7][0].setFicha(new Ficha(true));
+        tablero [7][0].setFicha(new Ficha(false));
+        tablero [6][1].setFicha(new Ficha(true));
+        tablero [6][1].setFicha(new Ficha(false));
+
+        tablero [1][2].setFicha(new Ficha(true));
+        tablero [1][2].setFicha(new Ficha(false));
+        tablero [3][2].setFicha(new Ficha(true));
+        tablero [3][2].setFicha(new Ficha(false));
+
+        tablero [5][2].setFicha(new Ficha(true));
+        tablero [5][2].setFicha(new Ficha(false));
+        tablero [7][2].setFicha(new Ficha(true));
+        tablero [7][2].setFicha(new Ficha(false));
+
+        //lado de abajo
+        tablero [0][7].setFicha(new Ficha(true));
+        tablero [0][7].setFicha(new Ficha(false));
+        tablero [2][7].setFicha(new Ficha(true));
+        tablero [2][7].setFicha(new Ficha(false));
+
+        tablero [4][7].setFicha(new Ficha(true));
+        tablero [4][7].setFicha(new Ficha(false));
+        tablero [6][7].setFicha(new Ficha(true));
+        tablero [6][7].setFicha(new Ficha(false));
+
+        tablero [1][6].setFicha(new Ficha(true));
+        tablero [1][6].setFicha(new Ficha(false));
+        tablero [3][6].setFicha(new Ficha(true));
+        tablero [3][6].setFicha(new Ficha(false));
+
+        tablero [5][6].setFicha(new Ficha(true));
+        tablero [5][6].setFicha(new Ficha(false));
+        tablero [7][6].setFicha(new Ficha(true));
+        tablero [7][6].setFicha(new Ficha(false));
+
+        tablero [0][5].setFicha(new Ficha(true));
+        tablero [0][5].setFicha(new Ficha(false));
+        tablero [2][5].setFicha(new Ficha(true));
+        tablero [2][5].setFicha(new Ficha(false));
+
+        tablero [4][5].setFicha(new Ficha(true));
+        tablero [4][5].setFicha(new Ficha(false));
+        tablero [6][5].setFicha(new Ficha(true));
+        tablero [6][5].setFicha(new Ficha(false));
+
+       
+        
+
+
 
     }
 
