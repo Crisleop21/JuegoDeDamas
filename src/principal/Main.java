@@ -1,13 +1,13 @@
 package src.principal;
 
-import src.tablero.*;
+import src.jugadores.TablaJugadores;
 
 public class Main{
+    TablaJugadores tJugadores = new TablaJugadores();
    
     public static void main(String[] args) {
         
-      Tablero t = new Tablero(8,8);
-      t.pintarTablero();
+      Juego juego = new Juego();
       
     }
     
