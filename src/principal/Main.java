@@ -1,15 +1,14 @@
 package src.principal;
 
-import src.tablero.Tablero;
+import src.tablero.*;
 
-public class MostrarTablero {
+public class Main{
    
     public static void main(String[] args) {
         
-       
-        Tablero tablero = new Tablero();
-        
-        tablero.imprimeTablero();
+      Tablero t = new Tablero(8,8);
+      t.pintarTablero();
+      
     }
     
 }
